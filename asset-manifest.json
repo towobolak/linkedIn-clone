@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/linkedin-clone/static/css/main.fda7f7ed.css",
+    "main.js": "/linkedin-clone/static/js/main.fe4ec314.js",
+    "static/js/453.56e6dacc.chunk.js": "/linkedin-clone/static/js/453.56e6dacc.chunk.js",
+    "static/media/7123025_logo_google_g_icon.png": "/linkedin-clone/static/media/7123025_logo_google_g_icon.81fdb134397492b14f45.png",
+    "static/media/189764.webp": "/linkedin-clone/static/media/189764.0a1797603d022572c407.webp",
+    "index.html": "/linkedin-clone/index.html",
+    "main.fda7f7ed.css.map": "/linkedin-clone/static/css/main.fda7f7ed.css.map",
+    "main.fe4ec314.js.map": "/linkedin-clone/static/js/main.fe4ec314.js.map",
+    "453.56e6dacc.chunk.js.map": "/linkedin-clone/static/js/453.56e6dacc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fda7f7ed.css",
+    "static/js/main.fe4ec314.js"
+  ]
+}
