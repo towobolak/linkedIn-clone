@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +16,157 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media only screen and (max-width: 600px){
+.logoo{
+  width: 120px;
+}
+.container{
+  width: 100%;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.header{
+
+  margin-bottom: 8px;
+}
+.extLogo{
+  width: 30px;
+  margin-right: 4px;
+}
+.extBtn{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding-top: 7px;
+  font-size: 14px;
+}
+.submit{
+  text-align: center;
+  border-radius: 32px;
+  width: 100%;
+  background: white;
+  display: flex;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 1px solid black;
+  transition: ease 300ms;
+  cursor: pointer;
+}
+.submit:hover{
+  background: rgb(162, 162, 162);
+  border: 1.5px solid;
+}
+.google, .apple{
+  margin-top: 15px;
+}
+
+.inputMain{
+  padding: 13px;
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid;
+  font-size: 20px;
+}
+.forgotP{
+  margin-top: 12px;
+  font-weight: 600;
+  width: 144px;
+  padding: 8px 4px;
+  border-radius: 32px;
+  transition: 500ms;
+}
+.forgotP1{
+  text-decoration: none;
+  color: #0a66c2;
+}
+.forgotP:hover{
+  background-color: #0073b1 !important;
+  color: #ffffff;
+}
+.forgotP1:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  color: #ffffff;
+}
+.showBtn{
+  position: relative;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border: 0px;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 8px;
+  font-weight: 600;
+  transition: 500ms;
+  color: #0a66c2;
+  padding: 8px;
+  border-radius: 32px;
+  width: 60px;
+  margin-top: 5px;
+}
+.showBtn:hover{
+  background: #0073b1 !important;
+  color: white;
+}
+
+.submit1{
+  background-color: #0a66c2 !important;
+  text-align: center;
+  border: transparent;
+  border-radius: 32px;
+  width: 100%;
+  padding: 18px;
+  font-size: 16px;
+  font-weight:600;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: 3ms;
+  cursor: pointer;
+}
+.submit1:hover{
+  background: #015281;
+}
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 14px;
+}
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ccc;
+  margin: 0 10px; 
+}
+.info{
+  font-size: 13px;
+  line-height: 1.5;
+}
+.extLinks{
+  text-decoration: none;
+  color: #0073b1;
+  font-weight: 600;
+}
+.extLinks:hover{
+  text-decoration: underline;
+}
+.google, .apple{
+  background: white;
+}
+.new{
+  text-align: center;
+  margin-top: 30px;
+}
+.newMe{
+  text-decoration: none;
+  font-weight: 600;
+  color: #0a66c2;
+}
+}
+
