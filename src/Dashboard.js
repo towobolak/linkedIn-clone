@@ -11,6 +11,7 @@ function Dashboard() {
             </div>
 
             <div className='search'>
+                    <img className='linkedin-logo' src={require('./images/linkedin-svgrepo-com.png')} />
                     <input type='text' name='search' placeholder='Search...'></input>
                
             </div>

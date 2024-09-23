@@ -510,10 +510,14 @@ display: none;
     border-radius: 50%;
     border: 1px solid rgb(95, 95, 95);
   }
+  .linkedin-logo{
+    width: 30px;
+    margin-right: 1%;
+  }
   .profile1{
     position: absolute;
     top: 2;
-    right: 28%;
+    right: 29%;
     background: rgb(255, 255, 255);
     border-radius: 50%;
     transition: ease-out 200ms;
@@ -535,6 +539,7 @@ display: none;
     border-radius: 8px;
     margin-left: 13%;
     width: 19.5%;
+    display: flex;
   }
   .search input{
     padding: 10px;
@@ -547,7 +552,7 @@ display: none;
     margin-top: 12px;
     position: absolute;
     top: 0;
-    right: 31%;
+    right: 31.5%;
     margin-right: 15px;
     background: rgb(255, 255, 255);
     transition: ease-out 200ms;
@@ -559,7 +564,7 @@ display: none;
     
   }
   .mes-icon{
-    width: 35px;
+    width: 30px;
     background: rgb(255, 255, 255);
     transition: ease-out 200ms;
     cursor: pointer;
@@ -637,11 +642,10 @@ display: none;
     margin-bottom: 8px;
     background: white;
     border-radius: 10px;
-    width: 50%;
-    background: black;
+    background: rgb(255, 255, 255);
   }
   .div2{
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     margin-bottom: 8px;
   }
   .profile-pic{
@@ -691,7 +695,6 @@ display: none;
     background: rgb(234, 234, 233);;
   }
   .div8{
-    padding-bottom: 60px;
     background: white;
     margin-bottom: 8px;
   }
