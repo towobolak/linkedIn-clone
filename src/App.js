@@ -1,14 +1,15 @@
 import React from 'react';
 import { HashRouter, Route, Routes } from 'react-router-dom';
-import LoginForm from './LoginForm';
 import Dashboard from './Dashboard';
+import LoginForm from './LoginForm';
 
 const App = () => {
   return (
     <HashRouter>
       <Routes>
        
-          <Route path='/' element={ <Dashboard />} />
+          <Route path='/' element={ <LoginForm />} />
+          <Route path='/Dashboard' element={ <Dashboard />} />
         
       </Routes>
     </HashRouter>
