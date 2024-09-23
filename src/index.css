@@ -50,7 +50,7 @@ display: none;
 }
 .didii{
   display: flex;
-  margin-left: 30%;
+  margin-left: 38%;
   margin-right: 25%;
 }
 .submit{
@@ -369,7 +369,16 @@ display: none;
     padding-left: 35px;
     padding-right: 35px;
   }
-  
+  .allDiv{
+    position: absolute;
+    right: 30%;
+    left: 30%;
+    width: 560px;
+    padding-right: 100px;
+    padding-left: 100px;
+    
+    
+  }
   .header{
   
     margin-bottom: 8px;
@@ -405,7 +414,11 @@ display: none;
   .google, .apple{
     margin-top: 15px;
   }
-  
+  .didii{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+  }  
   .inputMain{
     padding: 13px;
     margin-top: 20px;
