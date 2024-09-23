@@ -48,14 +48,17 @@ display: none;
   padding-top: 7px;
   font-size: 14px;
 }
+.didii{
+  display: flex;
+  margin-left: 30%;
+  margin-right: 25%;
+}
 .submit{
   text-align: center;
   border-radius: 32px;
   width: 100%;
   background: white;
   display: flex;
-  padding-left: 70px;
-  padding-right: 70px;
   padding-top: 6px;
   padding-bottom: 6px;
   border: 1px solid black;
