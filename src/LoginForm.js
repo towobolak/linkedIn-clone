@@ -33,7 +33,7 @@ const LoginForm = () => {
 
   return (
     <div className='allDiv'>
-      <img className='logoo' src={require('./189764.webp')} />
+      <img className='logoo' src={require('./images/189764.webp')} />
       <h1 className='header'>Sign in</h1>
       <p className='header'>Stay updated on your professional world.</p>
       
@@ -90,14 +90,14 @@ const LoginForm = () => {
 
       <div className="google">
                 <button className='submit' type="submit">
-                    <img className='extLogo' src={require('./7123025_logo_google_g_icon.png')} />
+                    <img className='extLogo' src={require('./images/7123025_logo_google_g_icon.png')} />
                     <a className='extBtn' href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Fhl%3Den%26utm_source%3DOGB%26utm_medium%3Dact%26gar%3DWzJd%26pli%3D1&ec=GAlAwAE&hl=en&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1676585918%3A1725963445572664&ddm=0" target="_blank">Continue with Google</a>
                 </button>
       </div>
             
       <div className="apple">
                 <button className='submit' type="submit">
-                    <img className='extLogo' src={require('./104490_apple_icon.png')} />
+                    <img className='extLogo' src={require('./images/104490_apple_icon.png')} />
                     <a className='extBtn' href="https://icloud.com/" target="_blank">Continue with Apple</a>
                 </button>
       </div>
