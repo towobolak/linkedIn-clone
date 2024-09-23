@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollPage from './ScrollPage';
 
 function Dashboard() {
   return (
@@ -21,9 +22,7 @@ function Dashboard() {
             </div>
         </div>
 
-      <div className='main-scroll'>
-        scroll
-      </div>
+        <ScrollPage />
 
       <div className='footer1'>
         <button className='home-tab'>
