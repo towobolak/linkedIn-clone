@@ -21,7 +21,10 @@ code {
 .logoo{
   width: 120px;
 }
-
+.leftSide-bar,
+.rightSide-bar{
+display: none;
+}
 .container{
   width: 100%;
   padding-left: 35px;
@@ -187,7 +190,7 @@ code {
   display: flex;
   width: 100%;
   padding: 10px;
-  background: rgb(231, 231, 231);
+  background: rgb(241, 239, 239);
   border-bottom: 1.5px solid black ;
 }
 .search{

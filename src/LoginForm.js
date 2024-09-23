@@ -8,6 +8,11 @@ const LoginForm = () => {
     email: '',
     password: '',
   });
+  
+  const navigateTo = (url) => {
+    console.log("i got here")
+    window.location.href = url;
+  };
 
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
@@ -73,8 +78,11 @@ const LoginForm = () => {
           </a>
         </div>
         <div className='submitBtnn'>
-        <a href="Dashboard.js"><button className='submit1' type="button">Sign in</button></a>
+          <button className='submit1' type="button" onClick={(e) => {
+            e.preventDefault();
+            window.location.href='/Users/towobola/linkedin-clone/src/Dashboard' }}>Sign in</button>
         </div>  
+
       </form>
       
       <div className='separator'>
