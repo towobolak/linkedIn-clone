@@ -26,11 +26,26 @@ function Dashboard() {
       </div>
 
       <div className='footer1'>
-        <button className='home-tab'>1</button>
-        <button className='my-network'>2</button>
-        <button className='post-tab'>3</button>
-        <button className='notifications-tab'>4</button>
-        <button className='jobs-tab'>5</button>
+        <button className='home-tab'>
+            <img className='footer-icon' src={require('./home-1-svgrepo-com.png')} />
+            <p>Home</p>
+        </button>
+        <button className='my-network'>
+            <img className='footer-icon' src={require('./people-svgrepo-com.png')} />
+            <p>My Network</p>
+        </button>
+        <button className='post-tab'>
+            <img className='footer-icon' src={require('./plus-square-svgrepo-com.png')} />
+            <p>Post</p>
+        </button>
+        <button className='notifications-tab'>
+            <img className='footer-icon' src={require('./bell-svgrepo-com.png')} />
+            <p>Notifications</p>
+        </button>
+        <button className='jobs-tab'>
+            <img className='footer-icon' src={require('./briefcase-svgrepo-com.png')} />
+            <p>Jobs</p>
+        </button>
       </div>
 
     </div>

@@ -222,6 +222,7 @@ code {
   bottom: 0;
   width: 100%;
   display: flex;
+  margin-bottom: 8px;
 }
 .home-tab,
 .my-network,
@@ -232,6 +233,9 @@ width: 100%;
 height: 50px;
 background: transparent;
 border: transparent;
+}
+.footer-icon{
+  width: 30px;
 }
 }
 
