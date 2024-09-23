@@ -4,7 +4,42 @@ function ScrollPage() {
   return (
     <div className='scroller'>
 
-        <div className='div1'>
+       <div className='leftSide-bar'>
+            <div>
+            <img className='profile-pic' src={require('./images/PASSPORT PHOTO.jpg')} />
+ 
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+       </div>
+
+       <div className='content-container'>
+       <div className='div1'>
             <div className='dash-header2'>
                 
                 <div className='profiler'>
@@ -368,8 +403,41 @@ function ScrollPage() {
             </button>
           </div>
         </div>
+       </div>
 
-
+       <div className='rightSide-bar'>
+            <div>
+            <img className='profile-pic' src={require('./images/PASSPORT PHOTO.jpg')} />
+ 
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+       </div>
 
     </div>
   );

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Dashboard from './Dashboard';
+
 
 const LoginForm = () => {
   const [formData, setFormData] = useState({
@@ -71,7 +73,7 @@ const LoginForm = () => {
           </a>
         </div>
         <div className='submitBtnn'>
-          <button className='submit1' type="submit">Sign in</button>
+        <a href="Dashboard.js"><button className='submit1' type="button">Sign in</button></a>
         </div>  
       </form>
       
