@@ -17,10 +17,11 @@ code {
     monospace;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 767px){
 .logoo{
   width: 120px;
 }
+
 .container{
   width: 100%;
   padding-left: 35px;
@@ -175,16 +176,19 @@ code {
 }
 .profile1{
   margin-top: 6px;
-  position: fixed;
-  background: white;
+  background: (231, 231, 231)
+}
+.profiler{
+  display: flex;
+  padding-left: 5px;
 }
 .dash-header{
   position: fixed;
   display: flex;
   width: 100%;
-  height: 80px;
   padding: 10px;
-  background: white;
+  background: rgb(231, 231, 231);
+  border-bottom: 1.5px solid black ;
 }
 .search{
   margin-top: 10px;
@@ -204,15 +208,15 @@ code {
   position: fixed;
   right: 0;
   margin-right: 15px;
+  background: (231, 231, 231);
 }
 .mes-icon1 button{
-  background: white;
   border: transparent;
+  background: (231, 231, 231);
 }
-
 .mes-icon{
   width: 35px;
-  background: white;
+  background: (231, 231, 231);
 }
 .main-scroll{
   height: 100vh;
@@ -220,22 +224,457 @@ code {
 .footer1{
   position: fixed;
   bottom: 0;
+  left: 0;
   width: 100%;
   display: flex;
-  margin-bottom: 8px;
+  background: white;
 }
+
 .home-tab,
 .my-network,
 .post-tab,
 .notifications-tab,
 .jobs-tab{
-width: 100%;
-height: 50px;
-background: transparent;
-border: transparent;
+  font-size: 10px;
+  width: 20%;
+  margin-right: 5%;
+  margin-left: 5%;
+  background: rgb(255, 255, 255);
+  border: transparent;
+  border-radius: 10px;
+  transition: ease-out 200ms;
+  cursor: pointer;
+}
+.home-tab:hover{
+  background: rgb(67, 139, 247);
+}
+.my-network:hover{
+  background: rgb(67, 139, 247);
+}
+.post-tab:hover{
+  background: rgb(67, 139, 247);
+}
+.notifications-tab:hover{
+  background: rgb(67, 139, 247);
+}
+.jobs-tab:hover{
+  background: rgb(67, 139, 247);
+}
+.div1{
+  padding-top: 79px;
+  margin-bottom: 8px;
+  background: white;
+}
+.div2{
+  background: white;
+  margin-bottom: 8px;
+}
+.profile-pic{
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid rgb(95, 95, 95);
+}
+.profile-1{
+  margin-top: 6px;
+  background: white;
+}
+.profiler{
+  display: flex;
+}
+.post{
+  padding: 3px;
+}
+.search1{
+  padding: 10px;
+}
+.footer2{
+  width: 100%;
+  display: flex;
+  margin-bottom: 8px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 5px;
 }
 .footer-icon{
   width: 30px;
 }
+.footer-icon1{
+  width: 20px;
+}
+.like,
+.comment,
+.share,
+.send{
+  width: 100%;
+  background: transparent;
+  border: transparent;
 }
 
+.scroller{
+  display: grid;
+  background: rgb(253, 254, 210);;
+}
+.div8{
+  padding-bottom: 60px;
+  background: white;
+  margin-bottom: 8px;
+}
+.imagess{
+  padding-top: 10px;
+  padding-bottom: 2px;
+  padding-left: 6px;
+}
+.mes-icon2{
+  width: 180px;
+  background: white;
+}
+.mes-icon3{
+  width: 180px;
+  background: white;
+}
+.mes-icon4{
+  width: 140px;
+  background: white;
+}
+.mes-icon5{
+  width: 140px;
+  background: white;
+}
+.mes-icon6{
+  width: 180px;
+  background: white;
+}
+}
+
+
+
+
+
+@media only screen and (min-width: 768px){
+  .logoo{
+    width: 120px;
+  }
+  
+  .container{
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  
+  .header{
+  
+    margin-bottom: 8px;
+  }
+  .extLogo{
+    width: 30px;
+    margin-right: 4px;
+  }
+  .extBtn{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-top: 7px;
+    font-size: 14px;
+  }
+  .submit{
+    text-align: center;
+    border-radius: 32px;
+    width: 100%;
+    background: white;
+    display: flex;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 1px solid black;
+    transition: ease 300ms;
+    cursor: pointer;
+  }
+  .submit:hover{
+    background: rgb(162, 162, 162);
+    border: 1.5px solid;
+  }
+  .google, .apple{
+    margin-top: 15px;
+  }
+  
+  .inputMain{
+    padding: 13px;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid;
+    font-size: 20px;
+  }
+  .forgotP{
+    margin-top: 12px;
+    font-weight: 600;
+    width: 144px;
+    padding: 8px 4px;
+    border-radius: 32px;
+    transition: 500ms;
+  }
+  .forgotP1{
+    text-decoration: none;
+    color: #0a66c2;
+  }
+  .forgotP:hover{
+    background-color: #0073b1 !important;
+    color: #ffffff;
+  }
+  .forgotP1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #ffffff;
+  }
+  .showBtn{
+    position: relative;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 8px;
+    font-weight: 600;
+    transition: 500ms;
+    color: #0a66c2;
+    padding: 8px;
+    border-radius: 32px;
+    width: 60px;
+    margin-top: 5px;
+  }
+  .showBtn:hover{
+    background: #0073b1 !important;
+    color: white;
+  }
+  
+  .submit1{
+    background-color: #0a66c2 !important;
+    text-align: center;
+    border: transparent;
+    border-radius: 32px;
+    width: 100%;
+    padding: 18px;
+    font-size: 16px;
+    font-weight:600;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 3ms;
+    cursor: pointer;
+  }
+  .submit1:hover{
+    background: #015281;
+  }
+  .separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+  }
+  .line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc;
+    margin: 0 10px; 
+  }
+  .info{
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .extLinks{
+    text-decoration: none;
+    color: #0073b1;
+    font-weight: 600;
+  }
+  .extLinks:hover{
+    text-decoration: underline;
+  }
+  .google, .apple{
+    background: white;
+  }
+  .new{
+    text-align: center;
+    margin-top: 30px;
+  }
+  .newMe{
+    text-decoration: none;
+    font-weight: 600;
+    color: #0a66c2;
+  }
+  .profile{
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(95, 95, 95);
+  }
+  .profile1{
+    margin-top: 6px;
+    background: (231, 231, 231)
+  }
+  .profiler{
+    display: flex;
+    padding-left: 5px;
+  }
+  .dash-header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    background: rgb(231, 231, 231);
+    border-bottom: 1.5px solid black ;
+  }
+  .search{
+    margin-top: 10px;
+    position: fixed;
+    border: 1px solid rgb(25, 25, 25);
+    border-radius: 6px;
+    left: 16%;
+    right: 16%;
+  }
+  .search input{
+    padding: 10px;
+    width: 100%;
+    border: transparent;
+  }
+  .mes-icon1{
+    margin-top: 12px;
+    position: fixed;
+    right: 0;
+    margin-right: 15px;
+    background: (231, 231, 231);
+  }
+  .mes-icon1 button{
+    border: transparent;
+    background: (231, 231, 231);
+  }
+  .mes-icon{
+    width: 35px;
+    background: (231, 231, 231);
+  }
+  .main-scroll{
+    height: 100vh;
+  }
+  .footer1{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    background: white;
+  }
+  
+  .home-tab,
+  .my-network,
+  .post-tab,
+  .notifications-tab,
+  .jobs-tab{
+    font-size: 10px;
+    width: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
+    background: rgb(255, 255, 255);
+    border: transparent;
+    border-radius: 10px;
+    transition: ease-out 200ms;
+    cursor: pointer;
+  }
+  .home-tab:hover{
+    background: rgb(67, 139, 247);
+  }
+  .my-network:hover{
+    background: rgb(67, 139, 247);
+  }
+  .post-tab:hover{
+    background: rgb(67, 139, 247);
+  }
+  .notifications-tab:hover{
+    background: rgb(67, 139, 247);
+  }
+  .jobs-tab:hover{
+    background: rgb(67, 139, 247);
+  }
+  .div1{
+    padding-top: 79px;
+    margin-bottom: 8px;
+    background: white;
+  }
+  .div2{
+    background: white;
+    margin-bottom: 8px;
+  }
+  .profile-pic{
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(95, 95, 95);
+  }
+  .profile-1{
+    margin-top: 6px;
+    background: white;
+  }
+  .profiler{
+    display: flex;
+  }
+  .post{
+    padding: 3px;
+  }
+  .search1{
+    padding: 10px;
+  }
+  .footer2{
+    width: 100%;
+    display: flex;
+    margin-bottom: 8px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+  }
+  .footer-icon{
+    width: 30px;
+  }
+  .footer-icon1{
+    width: 20px;
+  }
+  .like,
+  .comment,
+  .share,
+  .send{
+    width: 100%;
+    background: transparent;
+    border: transparent;
+  }
+  
+  .scroller{
+    display: grid;
+    background: rgb(253, 254, 210);;
+  }
+  .div8{
+    padding-bottom: 60px;
+    background: white;
+    margin-bottom: 8px;
+  }
+  .imagess{
+    padding-top: 10px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+  }
+  .mes-icon2{
+    width: 180px;
+    background: white;
+  }
+  .mes-icon3{
+    width: 180px;
+    background: white;
+  }
+  .mes-icon4{
+    width: 140px;
+    background: white;
+  }
+  .mes-icon5{
+    width: 140px;
+    background: white;
+  }
+  .mes-icon6{
+    width: 180px;
+    background: white;
+  }
+  }
