@@ -50,8 +50,11 @@ display: none;
 }
 .didii{
   display: flex;
-  margin-left: 38%;
+  margin-left: 32%;
   margin-right: 25%;
+}
+.allDiv{
+  padding: 10px;
 }
 .submit{
   text-align: center;
