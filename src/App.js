@@ -6,11 +6,13 @@ import Dashboard from './Dashboard';
 const App = () => {
   return (
     <Router>
-      <div className='container'>
-        <Routes>
-          <Route path="/" element={<LoginForm />} />
-          <Route path="/Dashboard" element={<Dashboard />} /> {/* Route for Dashboard */}
-        </Routes>
+      <div>
+        <div className='container'>
+
+        </div>
+        <div>
+        <Dashboard />
+        </div>
       </div>
     </Router>
   );

@@ -168,5 +168,70 @@ code {
   font-weight: 600;
   color: #0a66c2;
 }
+.profile{
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid rgb(95, 95, 95);
+}
+.profile1{
+  margin-top: 6px;
+  position: fixed;
+  background: white;
+}
+.dash-header{
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  background: white;
+}
+.search{
+  margin-top: 10px;
+  position: fixed;
+  border: 1px solid rgb(25, 25, 25);
+  border-radius: 6px;
+  left: 16%;
+  right: 16%;
+}
+.search input{
+  padding: 10px;
+  width: 100%;
+  border: transparent;
+}
+.mes-icon1{
+  margin-top: 12px;
+  position: fixed;
+  right: 0;
+  margin-right: 15px;
+}
+.mes-icon1 button{
+  background: white;
+  border: transparent;
+}
+
+.mes-icon{
+  width: 35px;
+  background: white;
+}
+.main-scroll{
+  height: 100vh;
+}
+.footer1{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+.home-tab,
+.my-network,
+.post-tab,
+.notifications-tab,
+.jobs-tab{
+width: 100%;
+height: 50px;
+background: transparent;
+border: transparent;
+}
 }
 
