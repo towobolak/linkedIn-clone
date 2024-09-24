@@ -72,7 +72,7 @@ function Dashboard() {
 
                 <button className='notifications-tab' onClick={handleSubmit5}><img className='footer-icon' src={require('./images/bell-svgrepo-com.png')} />Notifications</button>
 
-                <button onClick={handleSubmit2}><img className='profile' src={require('./images/PASSPORT PHOTO.jpg')} /></button>
+                <button className='profile1' onClick={handleSubmit2}><img className='profile' src={require('./images/PASSPORT PHOTO.jpg')} /></button>
             </div>
         </div>
         

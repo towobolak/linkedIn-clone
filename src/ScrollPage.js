@@ -16,37 +16,32 @@ function ScrollPage() {
     <div className='scroller'>
 
        <div className='leftSide-bar'>
-            <div>
-            <img className='profile-pic' src={require('./images/PASSPORT PHOTO.jpg')} />
- 
+            <div className='my-info'>
+                <img className='profile-pic11' src={require('./images/PASSPORT PHOTO.jpg')} />
+
+                    <div>
+                        <h3>Towobola Olakunle</h3>
+                        <p>Mechanical Engineer</p>
+                        <h5>Web3Bridge</h5>
+                    </div>
             </div>
-            <div>
                 
+            <div className='rannn'>
+                <p>Reach career heights with Premium</p>
+                <h5>Try for NGN0</h5>
             </div>
-            <div>
-                
+
+            <div className='rannn'>
+                <h6>Profile viewers</h6>
+                <h6>Post impressions</h6>
             </div>
-            <div>
-                
+
+            <div className='rannn'>
+                <h6>Saved items</h6>
+                <h6>Groups</h6>
+                <h6>Events</h6>
             </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
+            
        </div>
 
        <div className='content-container'>
@@ -338,31 +333,63 @@ function ScrollPage() {
        </div>
 
        <div className='rightSide-bar'>
-            <div>
-            <img className='profile-pic' src={require('./images/PASSPORT PHOTO.jpg')} />
- 
+            <div className='riririr'>
+                <h3>Add to your feed.</h3>
             </div>
-            <div>
-                
+
+            <div className='riririri'>
+                <div className='profiler'>
+                    <div className='profile-1'>
+                    <button className='profile-pic' onClick={handleSubmit2}><img className='profile' src={require('./images/13.jpg')} /></button>
+                    </div>
+
+                    <div className='search1'>
+                    <button onClick={handleSubmit2}><h3>Adebisi Onolaja</h3><p>Biological Consultant</p></button>           
+                    </div>
+                </div>
             </div>
-            <div>
-                
+
+            <div className='riririri'>
+                <div className='profiler'>
+                    <div className='profile-1'>
+                    <button className='profile-pic' onClick={handleSubmit2}><img className='profile' src={require('./images/15.jpg')} /></button>
+                    </div>
+
+                    <div className='search1'>
+                    <button onClick={handleSubmit2}><h3>Ogundero Stephen</h3><p>Full Stack Developer</p></button>           
+                    </div>
+                    </div>
             </div>
-            <div>
-                
+
+            <div className='riririri'>
+                    <div className='profiler'>
+                        <div className='profile-1'>
+                        <button className='profile-pic' onClick={handleSubmit2}><img className='profile' src={require('./images/20.jpg')} /></button>
+                        </div>
+
+                        <div className='search1'>
+                        <button onClick={handleSubmit2}><h3>Bodunrin Efeosa</h3><p>Graphic Designer</p></button>           
+                        </div>
+                    </div>
+
             </div>
-            <div>
-                
+
+            <div className='riririri'>
+                    <div className='profiler'>
+                        <div className='profile-1'>
+                        <button className='profile-pic' onClick={handleSubmit2}><img className='profile' src={require('./images/24.jpg')} /></button>
+                        </div>
+
+                        <div className='search1'>
+                        <button onClick={handleSubmit2}><h3>Babarinsa Ifeoluwa</h3><p>H.V.A.C. Installer</p></button>           
+                        </div>
+                    </div>
+
             </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
+
+            <h4 className='riririr'>view all recommendations</h4>
+            
+
             <div>
                 
             </div>

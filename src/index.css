@@ -589,11 +589,15 @@ display: none;
   .profile{
     width: 30px;
     border-radius: 50%;
-    border: 1px solid rgb(95, 95, 95);
+    border: transparent;
+
+    background: white;
+    border: 1px solid rgb(255, 255, 255);
   }
   .profile1{
     background: rgb(255, 255, 255);
     border-radius: 50%;
+    border: transparent;
     transition: ease-out 200ms;
     cursor: pointer;
   }
@@ -613,7 +617,7 @@ display: none;
     border-radius: 8px;
     margin-top: 0.5%;
     margin-left: 10%;
-    width: 19.5%;
+    width: 22.5%;
     display: flex;
     height: 40px;
   }
@@ -627,6 +631,7 @@ display: none;
   .mes-icon1{
     background: rgb(255, 255, 255);
     transition: ease-out 200ms;
+    border: transparent;
     cursor: pointer;
   }
   .mes-icon1 button{
@@ -762,7 +767,7 @@ display: none;
   }
 
   .scroller{
-    padding-top: 85px;
+    padding-top: 70px;
     display: flex;
     background: rgb(234, 234, 233);;
   }
@@ -822,6 +827,7 @@ display: none;
     background:#9dcbfa;
     border-radius: 10px;
   }
+
   .profile1 button{
     border-radius: 10px;
     background: white;
@@ -849,11 +855,37 @@ display: none;
   }
   .desk-icons{
     display: flex;
+    margin-left: 8%;
   }.dash-header3{
     display: flex;
     position: fixed;
     background: white;
     width: 100%;
     
+  }
+  .leftSide-bar{
+    background: transparent;
+  }
+  .rightSide-bar{
+    border: transparent;
+    padding: 10px;
+  }
+  .rannn,
+  .my-info{
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  .profile-pic11{
+    width: 60px;
+    border-radius: 50%;
+  }
+  .riririri{
+    margin: 10px;
+  }
+  .riririr{
+    margin-top: 10px;
   }
   }
