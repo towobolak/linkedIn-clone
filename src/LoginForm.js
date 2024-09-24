@@ -2,18 +2,13 @@ import React, { useState } from 'react';
 import {useNavigate } from "react-router-dom";
 
 
-
 const LoginForm = () => {
   const navigate = useNavigate(); 
   const [formData, setFormData] = useState({
     email: '',
     password: '',
   });
- 
-  // const navigateTo = (url) => {
-  //   console.log("i got here")
-  //   navigate(url);
-  // };
+
 
   const [showPassword, setShowPassword] = useState(false);
   

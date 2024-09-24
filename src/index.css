@@ -21,6 +21,7 @@ code {
 .logoo{
   width: 120px;
 }
+.dash-header3,
 .leftSide-bar,
 .rightSide-bar{
 display: none;
@@ -184,11 +185,11 @@ display: none;
 .profile{
   width: 40px;
   border-radius: 50%;
-  border: 1px solid rgb(95, 95, 95);
+  border: 1px solid rgb(255, 255, 255);
 }
 .profile1{
   margin-top: 6px;
-  background: (231, 231, 231)
+  background: white;
 }
 .profiler{
   display: flex;
@@ -199,7 +200,7 @@ display: none;
   display: flex;
   width: 100%;
   padding: 10px;
-  background: rgb(241, 239, 239);
+  background: rgb(255, 255, 255);
   border-bottom: 1.5px solid black ;
 }
 .search{
@@ -213,6 +214,7 @@ display: none;
 .search input{
   padding: 10px;
   width: 100%;
+  border-radius: 6px;
   border: transparent;
 }
 .mes-icon1{
@@ -220,15 +222,15 @@ display: none;
   position: fixed;
   right: 0;
   margin-right: 15px;
-  background: (231, 231, 231);
+  background: white;
 }
 .mes-icon1 button{
   border: transparent;
-  background: (231, 231, 231);
+  background: white;
 }
 .mes-icon{
   width: 35px;
-  background: (231, 231, 231);
+  background: white;
 }
 .main-scroll{
   height: 100vh;
@@ -324,7 +326,7 @@ display: none;
 
 .scroller{
   display: grid;
-  background: rgb(253, 254, 210);;
+  background: rgb(0, 0, 0, 0);
 }
 .div8{
   padding-bottom: 60px;
@@ -356,6 +358,46 @@ display: none;
   width: 180px;
   background: white;
 }
+
+/* new codes */
+.messageIn{
+  padding: 10px;
+}
+.messageIn1{
+ border-bottom: 1px solid gray;
+ padding: 10px;
+}
+.messageIn2{
+  text-align: center;
+  margin: 20px;
+  background: rgb(234, 234, 234);
+  padding: 10px;
+  border-radius: 6px;
+ }
+ .mess-age{
+  padding: 10px;
+  margin-top: 10px;
+  background: #d1e7fe ;
+  border-radius: 10px;
+ }
+ .mess-age1{
+  padding: 10px;
+  margin-top: 10px;
+  background:#9dcbfa;
+  border-radius: 10px;
+ }
+ .profile1 button{
+  border-radius: 10px;
+  background: white;
+  border: transparent;
+  transition: 200ms;
+  cursor: pointer;
+}
+.profile1:hover{
+  border-radius: 10px;
+  background:#9dcbfa;
+  border: transparent;
+}
 }
 
 
@@ -366,7 +408,9 @@ display: none;
   .logoo{
     width: 120px;
   }
-  
+  .footer1{
+    display: none;
+  }
   .container{
     width: 100%;
     padding-left: 35px;
