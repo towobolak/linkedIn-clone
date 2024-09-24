@@ -61,20 +61,18 @@ function Dashboard() {
                 <input type='text' name='search' placeholder='Search...'></input>
             </div>
 
-            <div>
-                <button className='home-tab' onClick={handleSubmit2}><img className='footer-icon' src={require('./images/home-1-svgrepo-com.png')} />Home</button>
+            <div className='desk-icons'>
+                <button className='home-tab' onClick={handleSubmit7}><img className='footer-icon' src={require('./images/home-1-svgrepo-com.png')} />Home</button>
 
-                <button className='my-network' onClick={handleSubmit2}><img className='footer-icon' src={require('./images/people-svgrepo-com.png')} />My Network</button>
+                <button className='my-network' onClick={handleSubmit3}><img className='footer-icon' src={require('./images/people-svgrepo-com.png')} />My Network</button>
 
-                <button className='jobs-tab' onClick={handleSubmit2}><img className='footer-icon' src={require('./images/briefcase-svgrepo-com.png')} />Jobs</button>
+                <button className='jobs-tab' onClick={handleSubmit6}><img className='footer-icon' src={require('./images/briefcase-svgrepo-com.png')} />Jobs</button>
 
                 <button className='mes-icon1' onClick={handleSubmit1}><img className='mes-icon' src={require('./images/message-svgrepo-com.png')} /></button>
 
-                <button className='notifications-tab' onClick={handleSubmit2}><img className='footer-icon' src={require('./images/bell-svgrepo-com.png')} />Notifications</button>
+                <button className='notifications-tab' onClick={handleSubmit5}><img className='footer-icon' src={require('./images/bell-svgrepo-com.png')} />Notifications</button>
 
-                <div className='profile1'>
-                        <button onClick={handleSubmit2}><img className='profile' src={require('./images/PASSPORT PHOTO.jpg')} /></button>
-                </div>
+                <button onClick={handleSubmit2}><img className='profile' src={require('./images/PASSPORT PHOTO.jpg')} /></button>
             </div>
         </div>
         

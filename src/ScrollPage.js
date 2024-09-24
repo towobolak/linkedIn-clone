@@ -1,6 +1,17 @@
 import React from 'react';
+import {useNavigate } from "react-router-dom";
+
 
 function ScrollPage() {
+    const navigate = useNavigate(); 
+    const handleSubmit2 = (e) => {e.preventDefault();
+        console.log('Personal-Information:');
+        navigate('../src/ProfileInformation');
+      };
+      const showAlert = () => {
+        window.alert("You are on a demo account. This function is disabled!");
+      };
+      
   return (
     <div className='scroller'>
 
@@ -44,12 +55,11 @@ function ScrollPage() {
                 
                 <div className='profiler'>
                     <div className='profile-1'>
-                            <img className='profile-pic' src={require('./images/PASSPORT PHOTO.jpg')} />
+                    <button className='profile-pic' onClick={handleSubmit2}><img className='profile' src={require('./images/PASSPORT PHOTO.jpg')} /></button>
                     </div>
 
                     <div className='search1'>
-                        <h3>Towobola Olakunle</h3>
-                        <p>Budding Mechanical Engineer</p>            
+                    <button onClick={handleSubmit2}><h3>Towobola Olakunle</h3><p>Budding Mechanical Engineer</p></button>           
                     </div>
                 </div>
 
@@ -65,36 +75,27 @@ function ScrollPage() {
                 </div>
             </div>
 
-          <div className='footer2'>
-            <button className='like'>
-                <img className='footer-icon1' src={require('./images/like-svgrepo-com.png')} />
-                <p>Like</p>
-            </button>
-            <button className='comment'>
-                <img className='footer-icon1' src={require('./images/comment-2-svgrepo-com.png')} />
-                <p>Comment</p>
-            </button>
-            <button className='share'>
-                <img className='footer-icon1' src={require('./images/share-arrow-svgrepo-com.png')} />
-                <p>Share</p>
-            </button>
-            <button className='send'>
-                <img className='footer-icon1' src={require('./images/share-svgrepo-com.png')} />
-                <p>Send</p>
-            </button>
-          </div>
+            <div className='footer2'>
+                <button className='like' onClick={showAlert}><img className='footer-icon1' src={require('./images/like-svgrepo-com.png')} /><p>Like</p></button>
+
+                <button className='comment' onClick={showAlert}><img className='footer-icon1' src={require('./images/comment-2-svgrepo-com.png')} /><p>Comment</p></button>
+
+                <button className='share' onClick={showAlert}><img className='footer-icon1' src={require('./images/share-arrow-svgrepo-com.png')} /><p>Share</p></button>
+
+                <button className='send' onClick={showAlert}><img className='footer-icon1' src={require('./images/share-svgrepo-com.png')} /><p>Send</p></button>
+            </div>
+
         </div>
         <div className='div2'>
             <div className='dash-header2'>
                 
-                <div className='profiler'>
+            <div className='profiler'>
                     <div className='profile-1'>
-                            <img className='profile-pic' src={require('./images/PASSPORT PHOTO.jpg')} />
+                    <button className='profile-pic' onClick={handleSubmit2}><img className='profile' src={require('./images/PASSPORT PHOTO.jpg')} /></button>
                     </div>
 
                     <div className='search1'>
-                        <h3>Towobola Olakunle</h3>
-                        <p>Budding Mechanical Engineer</p>            
+                    <button onClick={handleSubmit2}><h3>Towobola Olakunle</h3><p>Budding Mechanical Engineer</p></button>           
                     </div>
                 </div>
 
@@ -111,36 +112,26 @@ function ScrollPage() {
                 </div>
             </div>
 
-          <div className='footer2'>
-            <button className='like'>
-                <img className='footer-icon1' src={require('./images/like-svgrepo-com.png')} />
-                <p>Like</p>
-            </button>
-            <button className='comment'>
-                <img className='footer-icon1' src={require('./images/comment-2-svgrepo-com.png')} />
-                <p>Comment</p>
-            </button>
-            <button className='share'>
-                <img className='footer-icon1' src={require('./images/share-arrow-svgrepo-com.png')} />
-                <p>Share</p>
-            </button>
-            <button className='send'>
-                <img className='footer-icon1' src={require('./images/share-svgrepo-com.png')} />
-                <p>Send</p>
-            </button>
-          </div>
+           <div className='footer2'>
+                <button className='like' onClick={showAlert}><img className='footer-icon1' src={require('./images/like-svgrepo-com.png')} /><p>Like</p></button>
+
+                <button className='comment' onClick={showAlert}><img className='footer-icon1' src={require('./images/comment-2-svgrepo-com.png')} /><p>Comment</p></button>
+
+                <button className='share' onClick={showAlert}><img className='footer-icon1' src={require('./images/share-arrow-svgrepo-com.png')} /><p>Share</p></button>
+
+                <button className='send' onClick={showAlert}><img className='footer-icon1' src={require('./images/share-svgrepo-com.png')} /><p>Send</p></button>
+            </div>
         </div>        
         <div className='div2'>
             <div className='dash-header2'>
                 
-                <div className='profiler'>
+            <div className='profiler'>
                     <div className='profile-1'>
-                            <img className='profile-pic' src={require('./images/PASSPORT PHOTO.jpg')} />
+                    <button className='profile-pic' onClick={handleSubmit2}><img className='profile' src={require('./images/PASSPORT PHOTO.jpg')} /></button>
                     </div>
 
                     <div className='search1'>
-                        <h3>Towobola Olakunle</h3>
-                        <p>Budding Mechanical Engineer</p>            
+                    <button onClick={handleSubmit2}><h3>Towobola Olakunle</h3><p>Budding Mechanical Engineer</p></button>           
                     </div>
                 </div>
 
@@ -156,36 +147,26 @@ function ScrollPage() {
                 </div>
             </div>
 
-          <div className='footer2'>
-            <button className='like'>
-                <img className='footer-icon1' src={require('./images/like-svgrepo-com.png')} />
-                <p>Like</p>
-            </button>
-            <button className='comment'>
-                <img className='footer-icon1' src={require('./images/comment-2-svgrepo-com.png')} />
-                <p>Comment</p>
-            </button>
-            <button className='share'>
-                <img className='footer-icon1' src={require('./images/share-arrow-svgrepo-com.png')} />
-                <p>Share</p>
-            </button>
-            <button className='send'>
-                <img className='footer-icon1' src={require('./images/share-svgrepo-com.png')} />
-                <p>Send</p>
-            </button>
-          </div>
+            <div className='footer2'>
+                <button className='like' onClick={showAlert}><img className='footer-icon1' src={require('./images/like-svgrepo-com.png')} /><p>Like</p></button>
+
+                <button className='comment' onClick={showAlert}><img className='footer-icon1' src={require('./images/comment-2-svgrepo-com.png')} /><p>Comment</p></button>
+
+                <button className='share' onClick={showAlert}><img className='footer-icon1' src={require('./images/share-arrow-svgrepo-com.png')} /><p>Share</p></button>
+
+                <button className='send' onClick={showAlert}><img className='footer-icon1' src={require('./images/share-svgrepo-com.png')} /><p>Send</p></button>
+            </div>
         </div>
         <div className='div2'>
             <div className='dash-header2'>
                 
-                <div className='profiler'>
+            <div className='profiler'>
                     <div className='profile-1'>
-                            <img className='profile-pic' src={require('./images/PASSPORT PHOTO.jpg')} />
+                    <button className='profile-pic' onClick={handleSubmit2}><img className='profile' src={require('./images/PASSPORT PHOTO.jpg')} /></button>
                     </div>
 
                     <div className='search1'>
-                        <h3>Towobola Olakunle</h3>
-                        <p>Budding Mechanical Engineer</p>            
+                    <button onClick={handleSubmit2}><h3>Towobola Olakunle</h3><p>Budding Mechanical Engineer</p></button>           
                     </div>
                 </div>
 
@@ -201,36 +182,26 @@ function ScrollPage() {
                   </div>
             </div>
 
-          <div className='footer2'>
-            <button className='like'>
-                <img className='footer-icon1' src={require('./images/like-svgrepo-com.png')} />
-                <p>Like</p>
-            </button>
-            <button className='comment'>
-                <img className='footer-icon1' src={require('./images/comment-2-svgrepo-com.png')} />
-                <p>Comment</p>
-            </button>
-            <button className='share'>
-                <img className='footer-icon1' src={require('./images/share-arrow-svgrepo-com.png')} />
-                <p>Share</p>
-            </button>
-            <button className='send'>
-                <img className='footer-icon1' src={require('./images/share-svgrepo-com.png')} />
-                <p>Send</p>
-            </button>
-          </div>
+            <div className='footer2'>
+                <button className='like' onClick={showAlert}><img className='footer-icon1' src={require('./images/like-svgrepo-com.png')} /><p>Like</p></button>
+
+                <button className='comment' onClick={showAlert}><img className='footer-icon1' src={require('./images/comment-2-svgrepo-com.png')} /><p>Comment</p></button>
+
+                <button className='share' onClick={showAlert}><img className='footer-icon1' src={require('./images/share-arrow-svgrepo-com.png')} /><p>Share</p></button>
+
+                <button className='send' onClick={showAlert}><img className='footer-icon1' src={require('./images/share-svgrepo-com.png')} /><p>Send</p></button>
+            </div>
         </div>
         <div className='div2'>
             <div className='dash-header2'>
                 
-                <div className='profiler'>
+            <div className='profiler'>
                     <div className='profile-1'>
-                            <img className='profile-pic' src={require('./images/PASSPORT PHOTO.jpg')} />
+                    <button className='profile-pic' onClick={handleSubmit2}><img className='profile' src={require('./images/PASSPORT PHOTO.jpg')} /></button>
                     </div>
 
                     <div className='search1'>
-                        <h3>Towobola Olakunle</h3>
-                        <p>Budding Mechanical Engineer</p>            
+                    <button onClick={handleSubmit2}><h3>Towobola Olakunle</h3><p>Budding Mechanical Engineer</p></button>           
                     </div>
                 </div>
 
@@ -247,36 +218,26 @@ function ScrollPage() {
                 </div>
             </div>
 
-          <div className='footer2'>
-            <button className='like'>
-                <img className='footer-icon1' src={require('./images/like-svgrepo-com.png')} />
-                <p>Like</p>
-            </button>
-            <button className='comment'>
-                <img className='footer-icon1' src={require('./images/comment-2-svgrepo-com.png')} />
-                <p>Comment</p>
-            </button>
-            <button className='share'>
-                <img className='footer-icon1' src={require('./images/share-arrow-svgrepo-com.png')} />
-                <p>Share</p>
-            </button>
-            <button className='send'>
-                <img className='footer-icon1' src={require('./images/share-svgrepo-com.png')} />
-                <p>Send</p>
-            </button>
-          </div>
+            <div className='footer2'>
+                <button className='like' onClick={showAlert}><img className='footer-icon1' src={require('./images/like-svgrepo-com.png')} /><p>Like</p></button>
+
+                <button className='comment' onClick={showAlert}><img className='footer-icon1' src={require('./images/comment-2-svgrepo-com.png')} /><p>Comment</p></button>
+
+                <button className='share' onClick={showAlert}><img className='footer-icon1' src={require('./images/share-arrow-svgrepo-com.png')} /><p>Share</p></button>
+
+                <button className='send' onClick={showAlert}><img className='footer-icon1' src={require('./images/share-svgrepo-com.png')} /><p>Send</p></button>
+            </div>
         </div>
         <div className='div2'>
             <div className='dash-header2'>
                 
-                <div className='profiler'>
+            <div className='profiler'>
                     <div className='profile-1'>
-                            <img className='profile-pic' src={require('./images/PASSPORT PHOTO.jpg')} />
+                    <button className='profile-pic' onClick={handleSubmit2}><img className='profile' src={require('./images/PASSPORT PHOTO.jpg')} /></button>
                     </div>
 
                     <div className='search1'>
-                        <h3>Towobola Olakunle</h3>
-                        <p>Budding Mechanical Engineer</p>            
+                    <button onClick={handleSubmit2}><h3>Towobola Olakunle</h3><p>Budding Mechanical Engineer</p></button>           
                     </div>
                 </div>
 
@@ -293,36 +254,26 @@ function ScrollPage() {
                 </div>
             </div>
 
-          <div className='footer2'>
-            <button className='like'>
-                <img className='footer-icon1' src={require('./images/like-svgrepo-com.png')} />
-                <p>Like</p>
-            </button>
-            <button className='comment'>
-                <img className='footer-icon1' src={require('./images/comment-2-svgrepo-com.png')} />
-                <p>Comment</p>
-            </button>
-            <button className='share'>
-                <img className='footer-icon1' src={require('./images/share-arrow-svgrepo-com.png')} />
-                <p>Share</p>
-            </button>
-            <button className='send'>
-                <img className='footer-icon1' src={require('./images/share-svgrepo-com.png')} />
-                <p>Send</p>
-            </button>
-          </div>
+            <div className='footer2'>
+                <button className='like' onClick={showAlert}><img className='footer-icon1' src={require('./images/like-svgrepo-com.png')} /><p>Like</p></button>
+
+                <button className='comment' onClick={showAlert}><img className='footer-icon1' src={require('./images/comment-2-svgrepo-com.png')} /><p>Comment</p></button>
+
+                <button className='share' onClick={showAlert}><img className='footer-icon1' src={require('./images/share-arrow-svgrepo-com.png')} /><p>Share</p></button>
+
+                <button className='send' onClick={showAlert}><img className='footer-icon1' src={require('./images/share-svgrepo-com.png')} /><p>Send</p></button>
+            </div>
         </div>
         <div className='div2'>
             <div className='dash-header2'>
                 
-                <div className='profiler'>
+            <div className='profiler'>
                     <div className='profile-1'>
-                            <img className='profile-pic' src={require('./images/PASSPORT PHOTO.jpg')} />
+                    <button className='profile-pic' onClick={handleSubmit2}><img className='profile' src={require('./images/PASSPORT PHOTO.jpg')} /></button>
                     </div>
 
                     <div className='search1'>
-                        <h3>Towobola Olakunle</h3>
-                        <p>Budding Mechanical Engineer</p>            
+                    <button onClick={handleSubmit2}><h3>Towobola Olakunle</h3><p>Budding Mechanical Engineer</p></button>           
                     </div>
                 </div>
 
@@ -339,36 +290,26 @@ function ScrollPage() {
                 </div>
             </div>
 
-          <div className='footer2'>
-            <button className='like'>
-                <img className='footer-icon1' src={require('./images/like-svgrepo-com.png')} />
-                <p>Like</p>
-            </button>
-            <button className='comment'>
-                <img className='footer-icon1' src={require('./images/comment-2-svgrepo-com.png')} />
-                <p>Comment</p>
-            </button>
-            <button className='share'>
-                <img className='footer-icon1' src={require('./images/share-arrow-svgrepo-com.png')} />
-                <p>Share</p>
-            </button>
-            <button className='send'>
-                <img className='footer-icon1' src={require('./images/share-svgrepo-com.png')} />
-                <p>Send</p>
-            </button>
-          </div>
+            <div className='footer2'>
+                <button className='like' onClick={showAlert}><img className='footer-icon1' src={require('./images/like-svgrepo-com.png')} /><p>Like</p></button>
+
+                <button className='comment' onClick={showAlert}><img className='footer-icon1' src={require('./images/comment-2-svgrepo-com.png')} /><p>Comment</p></button>
+
+                <button className='share' onClick={showAlert}><img className='footer-icon1' src={require('./images/share-arrow-svgrepo-com.png')} /><p>Share</p></button>
+
+                <button className='send' onClick={showAlert}><img className='footer-icon1' src={require('./images/share-svgrepo-com.png')} /><p>Send</p></button>
+            </div>
         </div>
         <div className='div8'>
             <div className='dash-header2'>
                 
-                <div className='profiler'>
+            <div className='profiler'>
                     <div className='profile-1'>
-                            <img className='profile-pic' src={require('./images/PASSPORT PHOTO.jpg')} />
+                    <button className='profile-pic' onClick={handleSubmit2}><img className='profile' src={require('./images/PASSPORT PHOTO.jpg')} /></button>
                     </div>
 
                     <div className='search1'>
-                        <h3>Towobola Olakunle</h3>
-                        <p>Budding Mechanical Engineer</p>            
+                    <button onClick={handleSubmit2}><h3>Towobola Olakunle</h3><p>Budding Mechanical Engineer</p></button>           
                     </div>
                 </div>
 
@@ -384,24 +325,15 @@ function ScrollPage() {
                 </div>
             </div>
 
-          <div className='footer2'>
-            <button className='like'>
-                <img className='footer-icon1' src={require('./images/like-svgrepo-com.png')} />
-                <p>Like</p>
-            </button>
-            <button className='comment'>
-                <img className='footer-icon1' src={require('./images/comment-2-svgrepo-com.png')} />
-                <p>Comment</p>
-            </button>
-            <button className='share'>
-                <img className='footer-icon1' src={require('./images/share-arrow-svgrepo-com.png')} />
-                <p>Share</p>
-            </button>
-            <button className='send'>
-                <img className='footer-icon1' src={require('./images/share-svgrepo-com.png')} />
-                <p>Send</p>
-            </button>
-          </div>
+            <div className='footer2'>
+                <button className='like' onClick={showAlert}><img className='footer-icon1' src={require('./images/like-svgrepo-com.png')} /><p>Like</p></button>
+
+                <button className='comment' onClick={showAlert}><img className='footer-icon1' src={require('./images/comment-2-svgrepo-com.png')} /><p>Comment</p></button>
+
+                <button className='share' onClick={showAlert}><img className='footer-icon1' src={require('./images/share-arrow-svgrepo-com.png')} /><p>Share</p></button>
+
+                <button className='send' onClick={showAlert}><img className='footer-icon1' src={require('./images/share-svgrepo-com.png')} /><p>Send</p></button>
+            </div>
         </div>
        </div>
 

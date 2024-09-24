@@ -185,11 +185,12 @@ display: none;
 .profile{
   width: 40px;
   border-radius: 50%;
-  border: 1px solid rgb(255, 255, 255);
+  background: #0073b1;
+  border: 1px solid #ffffff;;
 }
 .profile1{
   margin-top: 6px;
-  background: white;
+  background: #0073b1;
 }
 .profiler{
   display: flex;
@@ -200,7 +201,7 @@ display: none;
   display: flex;
   width: 100%;
   padding: 10px;
-  background: rgb(255, 255, 255);
+  background: #0073b1;
   border-bottom: 1.5px solid black ;
 }
 .search{
@@ -222,15 +223,15 @@ display: none;
   position: fixed;
   right: 0;
   margin-right: 15px;
-  background: white;
+  background: #0073b1;
 }
 .mes-icon1 button{
   border: transparent;
-  background: white;
+  background: #0073b1;
 }
 .mes-icon{
   width: 35px;
-  background: white;
+  background: #0073b1;
 }
 .main-scroll{
   height: 100vh;
@@ -398,6 +399,18 @@ display: none;
   background:#9dcbfa;
   border: transparent;
 }
+.search1 button{
+  background: transparent;
+  border: transparent;
+  text-align: left;
+}
+/* additional */
+.google .submit{
+  justify-content: center;
+}
+.apple button{
+  justify-content: center;
+}
 }
 
 
@@ -418,21 +431,19 @@ display: none;
   }
   .allDiv{
     position: absolute;
+    top: 10%;
     right: 30%;
     left: 30%;
-    width: 560px;
-    padding-right: 100px;
-    padding-left: 100px;
-    
-    
+    width: 500px;
+    padding: 20px;
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 10px;
   }
   .header{
-  
     margin-bottom: 8px;
   }
   .extLogo{
     width: 30px;
-    margin-right: 4px;
   }
   .extBtn{
     text-decoration: none;
@@ -571,19 +582,16 @@ display: none;
     font-weight: 600;
     color: #0a66c2;
   }
+  .linkedin-logo{
+    width: 30px;
+    margin-right: 1%;
+  }
   .profile{
     width: 30px;
     border-radius: 50%;
     border: 1px solid rgb(95, 95, 95);
   }
-  .linkedin-logo{
-    width: 30px;
-    margin-right: 1%;
-  }
   .profile1{
-    position: absolute;
-    top: 2;
-    right: 29%;
     background: rgb(255, 255, 255);
     border-radius: 50%;
     transition: ease-out 200ms;
@@ -594,8 +602,8 @@ display: none;
     padding-left: 5px;
   }
   .dash-header{
+    display: none;
     position: fixed;
-    display: flex;
     width: 100%;
     padding: 10px;
     background: rgb(255, 255, 255);
@@ -603,9 +611,11 @@ display: none;
   }
   .search{
     border-radius: 8px;
-    margin-left: 13%;
+    margin-top: 0.5%;
+    margin-left: 10%;
     width: 19.5%;
     display: flex;
+    height: 40px;
   }
   .search input{
     padding: 10px;
@@ -615,11 +625,6 @@ display: none;
     background: rgb(234, 234, 234);
   }
   .mes-icon1{
-    margin-top: 12px;
-    position: absolute;
-    top: 0;
-    right: 31.5%;
-    margin-right: 15px;
     background: rgb(255, 255, 255);
     transition: ease-out 200ms;
     cursor: pointer;
@@ -640,10 +645,10 @@ display: none;
     height: 100vh;
   }
   .footer1{
+    display: none;
     position: fixed;
     top: 0%;
     left: 40%;
-    display: flex;
     background: rgb(255, 255, 255);
   }
   
@@ -652,6 +657,7 @@ display: none;
   .post-tab,
   .notifications-tab,
   .jobs-tab{
+    position: relative;
     font-size: 10px;
     width: 20%;
     margin-right: 10%;
@@ -788,5 +794,66 @@ display: none;
   .mes-icon6{
     width: 180px;
     background: white;
+  }
+  /* new codes */
+  .messageIn{
+    padding: 10px;
+  }
+  .messageIn1{
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  }
+  .messageIn2{
+    text-align: center;
+    margin: 20px;
+    background: rgb(234, 234, 234);
+    padding: 10px;
+    border-radius: 6px;
+  }
+  .mess-age{
+    padding: 10px;
+    margin-top: 10px;
+    background: #d1e7fe ;
+    border-radius: 10px;
+  }
+  .mess-age1{
+    padding: 10px;
+    margin-top: 10px;
+    background:#9dcbfa;
+    border-radius: 10px;
+  }
+  .profile1 button{
+    border-radius: 10px;
+    background: white;
+    border: transparent;
+    transition: 200ms;
+    cursor: pointer;
+  }
+  .profile1:hover{
+    border-radius: 10px;
+    background:#9dcbfa;
+    border: transparent;
+  }
+  .search1 button{
+    background: transparent;
+    border: transparent;
+    text-align: left;
+  }
+
+  /* additional */
+  .google .submit{
+  justify-content: center;
+  }
+  .apple button{
+    justify-content: center;
+  }
+  .desk-icons{
+    display: flex;
+  }.dash-header3{
+    display: flex;
+    position: fixed;
+    background: white;
+    width: 100%;
+    
   }
   }
